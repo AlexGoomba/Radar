@@ -8,7 +8,8 @@
 
 ### Pages
 #### Log In Page
-A Log In Page for people to sign up
+A Log In Page for people
+
 
 #### Landing Page
 A page for the user to see the events in the local area
