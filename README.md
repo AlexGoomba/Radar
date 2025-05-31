@@ -2,4 +2,4 @@
 ## Type : A
 ### Description
 ### Features
-#### FUnctionality
+#### Functionality
