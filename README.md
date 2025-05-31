@@ -1,5 +1,10 @@
 # Solaria
 ## Type : A
 ### Description
+
 ### Features
-#### Functionality
+#### Log In Page
+A Log In Page for people to sign up
+
+#### Landing Page
+* If 
