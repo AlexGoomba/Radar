@@ -23,4 +23,4 @@ A page for the user to see the events in the local area
   * Show Cultural events based on observances
   * Show Invite-only events that you have accepted
   * Show Hosting events that you are hosting
-  ##### *Features*
+ ##### *Features*
