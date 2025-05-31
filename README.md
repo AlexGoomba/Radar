@@ -8,8 +8,9 @@
 
 ### Pages
 #### Log In Page
-A Log In Page for people
-
+A Log In Page for users to:
+* Log In
+* Sign Up
 
 #### Landing Page
 A page for the user to see the events in the local area
@@ -22,3 +23,4 @@ A page for the user to see the events in the local area
   * Show Cultural events based on observances
   * Show Invite-only events that you have accepted
   * Show Hosting events that you are hosting
+#####**Features**
