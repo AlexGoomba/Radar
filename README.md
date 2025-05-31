@@ -14,7 +14,7 @@ A Log In Page for users to:
 
 #### Landing Page
 A page for the user to see the events in the local area
-##### *User Types*
+ ##### *User Types*
 * New User
   * Show Community events near the area open for everyone
   * Show Cultural events based on observances
