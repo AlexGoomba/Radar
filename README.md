@@ -26,3 +26,5 @@ A page for the user to see the events in the local area
   * Show Hosting events that you are hosting
  
  *Features*
+* View Type
+  * 
