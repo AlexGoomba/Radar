@@ -26,5 +26,23 @@ A page for the user to see the events in the local area
   * Show Hosting events that you are hosting
  
  *Features*
-* View Type
-  * 
+ * View Type
+   * Card View
+     * Shows the image of the event including the title, the price, the distance, the time and date
+   * Map View
+     * Shows the precise location of the user and the location of the events that you are available to attend to
+ * Search
+   * Explore events around the area using AI
+
+#### Search Page
+Shows the results based of the AI recommendation. It will show as a Card View that I can scroll vertically for more result
+
+ *Features*
+ * Sorting
+   * Price
+   * Distance
+   * Dates
+
+#### Event Page
+A page for the user to see the details of the events
+
