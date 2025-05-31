@@ -55,10 +55,45 @@ A page for the user to see the details of the events
   * Date
   * Distance
   * Price
+  * Category
 * Body
   * Description
   * Dietary
   * Parking
   * Dress Code
   * Friendliness
-  * 
+  * Links
+* Actions
+  * Attend
+  * Share
+
+#### Host Page
+A page for the user to create, edit, and host events
+
+
+*Structure*
+* Header
+  * Title
+  * Subtitle
+  * Date
+  * Distance
+  * Price
+  * Category
+* Body
+  * Description
+  * Dietary
+  * Parking
+  * Dress Code
+  * Friendliness
+  * Links
+* Actions
+  * Create
+  * Delete
+
+### Navigation Bar
+#### Home
+#### Explore
+#### Calendar
+#### Notification
+#### Profile
+
