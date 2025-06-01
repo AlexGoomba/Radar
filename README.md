@@ -33,8 +33,6 @@ A page for the user to see the events in the local area
     * Shows the precise location of the user and the location of the events that you are available to attend to
   * Calendar View
     * Shows the events on the calendar that you are hosting and are planning to attend
-* Search
-  * Explore events around the area using AI
 
 #### Search Page
 Shows the results based of the AI recommendation. It will show as a Card View that I can scroll vertically for more result
@@ -70,7 +68,7 @@ A page for the user to see the details of the events
 #### Host Page
 A page for the user to create, edit, and host events
 
-
+##### Create an Event
 *Structure*
 * Header
   * Title
@@ -89,11 +87,35 @@ A page for the user to create, edit, and host events
 * Actions
   * Create
   * Delete
+ 
+##### Create an Event
+*Structure*
+* Header
+  * Title
+  * Subtitle
+  * Date
+  * Distance
+  * Price
+  * Category
+* Body
+  * Description
+  * Dietary
+  * Parking
+  * Dress Code
+  * Friendliness
+  * Links
+* Actions
+  * Edit
+  * Invite
+  * Cancel
 
 ### Navigation Bar
 #### Home
 #### Explore
 #### Calendar
 #### Notification
+* Recommendations
+* Upcoming Events
+* 
 #### Profile
 
