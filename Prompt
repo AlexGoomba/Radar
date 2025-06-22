@@ -1,110 +1,124 @@
-🚀 Prompt for Bolt.new
-Project Name: Evently
-Goal: Create a modern, mobile- and web-responsive event hosting and attending platform.
+# 🚀 Evently – Agile Web App Foundation Prompt (For Bolt.new)
 
-📱 Core Features to Start With (MVP)
-User Types:
+## 🧩 Overview
 
-Attendee: Can view, accept/decline event cards, get notified, and manage event calendars.
+**Evently** is a mobile-first, responsive web app where users can **host and attend events**. The app is designed to evolve through the **Agile methodology**, allowing modular expansion of features, UI, and AI tools without disrupting existing functionality. The MVP is being developed on **Bolt.new**, with future plans for native iOS and Android apps.
 
-Host: Can create events, invite users, and generate shareable links depending on event type.
+---
 
-🗂 Event Types (Cards)
-Private Event
+## 👤 User Types
 
-Only users explicitly invited by the host can access the event
+- **Attendee**
+  - View and interact with event cards
+  - Accept/decline event invitations
+  - Add events to the in-app calendar
+  - Sync events to personal calendars (Google, Apple, Outlook)
+  - Receive location- and interest-based notifications
 
-No shareable link; attendees cannot invite others
+- **Host**
+  - Create and manage events
+  - Customize privacy settings
+  - Invite users and share event links
+  - Set eligibility rules for Invite-Only events
 
-Invite-Only Event
+---
 
-Users invited by the host receive a shareable link
+## 🗂 Event Card Types
 
-Anyone who receives the link can access the event only if they meet the host’s predefined requirements (e.g., verified account, friend of attendee, location-based, etc.)
+1. **Private Event**
+   - Only visible to users **explicitly invited** by the host
+   - **No shareable link** available
 
-Public Event
+2. **Invite-Only Event**
+   - Shareable link available **only to invited users**
+   - Link recipients must meet **host-defined requirements** to access
 
-Open to all users
+3. **Public Event**
+   - **Open to all users**
+   - Public shareable link; no restrictions
 
-Shareable public link allows anyone to join or RSVP, even without an account
+---
 
-✅ Attendee Flow
-Browse, accept, or decline event cards (Private, Invite-Only, Public)
+## 📅 Calendar & Notifications
 
-Add accepted events to the in-app calendar
+- Users can add accepted events to the in-app calendar
+- Option to sync with:
+  - Google Calendar
+  - Apple Calendar
+  - Outlook
 
-Optionally sync accepted events with:
+- Smart notifications:
+  - Upcoming accepted events
+  - Location-based suggestions
+  - AI-recommended events based on user behavior (future feature)
 
-Google Calendar
+---
 
-Apple Calendar
+## 🎨 UI Design: “Florida Night”
 
-Outlook
+- A dark, tropical aesthetic with **neon purples, blues, pinks, and orange accents**
+- Mobile-first design, responsive across all screen sizes
+- Lightweight, modern animations (to be added over time)
 
-Receive notifications for:
+---
 
-Upcoming events they've accepted
+## 💸 Monetization: Premium Features
 
-Events they may be interested in (based on preferences)
+### Premium for Hosts
+- Create **3D or custom collectible tickets**
+- Use **AI analytics** (engagement, demographics, trends)
+- Promote events in discovery feeds
 
-Nearby events if location services are on (general or precise)
+### Premium for Attendees
+- **AI-curated feed** based on interests and history
+- **AI chat assistant** to build itineraries
+- **Digital badges** for event attendance
+- **Interactive map** to track event history
+- Access to exclusive/premium events
 
-🧑‍💻 Host Flow
-Create and manage events with:
+---
 
-Title, time, location, description, type (Private, Invite-Only, Public)
+## 📱 Future Mobile App
 
-Invite attendees directly
+Evently will have a **mobile app version** available in future development cycles for:
 
-Manage eligibility requirements for Invite-Only events
+- **iOS (App Store)**
+- **Android (Google Play)**
 
-Generate public or restricted shareable links where applicable
+The mobile app will mirror and extend the web experience, using native mobile features such as deep linking, background notifications, and location tracking.
 
-🎨 UI / Design
-Theme: “Florida Night”
+---
 
-Dark UI with vivid neon accents (blue, purple, coral pink, and soft orange gradients)
+## 🔁 Development Strategy: Agile
 
-Fully responsive for mobile and desktop
+- All features are developed **iteratively**, using Agile principles
+- Functionality is **modular** and **extendable**
+- UI/UX, animations, and AI tools will be layered on top of a stable MVP core
+- Future features can be added **without breaking existing systems**
 
-💸 Monetization / Premium Tier
-Premium for Hosts:
+---
 
-Create custom or 3D collectible tickets
+## 🧱 Tech & Architecture Notes (Suggested)
 
-Use AI-powered analytics to track engagement, trends, demographics
+- **React-based** UI (with future React Native support)
+- Modular state management (e.g. Zustand or Redux)
+- Placeholder integration for:
+  - Calendar APIs
+  - Geolocation & maps
+  - OAuth for event access
+  - Notifications & deep linking
+  - AI assistant & analytics modules
 
-Highlight events in the app’s discovery feed
+---
 
-Premium for Attendees:
+## ✅ Summary
 
-AI-curated feed based on interests
+**Evently** is a dynamic event hosting and discovery platform, built to scale over time. MVP includes:
 
-Use AI chat to build custom event itineraries
+- Private, Invite-Only, and Public event types
+- Calendar integration and smart notifications
+- Premium features for hosts and attendees
+- A future-ready mobile app strategy
+- Agile-based modular development on Bolt.new
 
-Earn digital badges and track places attended via map integration
-
-Access premium events and unlock future-exclusive perks
-
-📲 Future Plans
-We plan to develop and release a mobile app equivalent for this platform, available on both the App Store (iOS) and Google Play Store (Android). The mobile app will provide a seamless native experience, integrated with the features built on the web.
-
-🔁 Development Style: Agile
-We are following the Agile methodology. This means:
-
-Build a modular, scalable foundation
-
-All features, animations, AI tools, and design enhancements should be easily extendable
-
-Future updates must not break existing functionality
-
-🧱 Summary
-Build Evently as a mobile-first, fully responsive event platform where:
-
-Hosts create Private, Invite-Only, or Public events
-
-Attendees interact with personalized event cards
-
-Premium users unlock AI tools, smart features, and exclusive content
-
-The system is built for Agile-based iteration, with future native apps on the roadmap
+---
