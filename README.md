@@ -116,6 +116,5 @@ A page for the user to create, edit, and host events
 #### Notification
 * Recommendations
 * Upcoming Events
-* 
 #### Profile
 
