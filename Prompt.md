@@ -54,6 +54,17 @@
 
 ---
 
+## 🔐 Authentication (To Be Integrated Later)
+
+The login/signup flow is not part of the initial MVP, but:
+- A **dedicated placeholder space** will be prepared in the layout
+- Auth UI and logic will be integrated **later in development**
+- Future features such as saved preferences, RSVP history, and premium access will rely on authenticated sessions
+
+> This ensures a frictionless path to integrate user authentication without needing major refactors.
+
+---
+
 ## 🎨 UI Design: “Florida Night”
 
 - A dark, tropical aesthetic with **neon purples, blues, pinks, and orange accents**
@@ -94,7 +105,7 @@ The mobile app will mirror and extend the web experience, using native mobile fe
 - All features are developed **iteratively**, using Agile principles
 - Functionality is **modular** and **extendable**
 - UI/UX, animations, and AI tools will be layered on top of a stable MVP core
-- Future features can be added **without breaking existing systems**
+- Future features (auth, AI, analytics, native) can be added **without breaking existing systems**
 
 ---
 
@@ -108,6 +119,7 @@ The mobile app will mirror and extend the web experience, using native mobile fe
   - OAuth for event access
   - Notifications & deep linking
   - AI assistant & analytics modules
+  - **Authentication system** (email/password or OAuth)
 
 ---
 
@@ -118,6 +130,7 @@ The mobile app will mirror and extend the web experience, using native mobile fe
 - Private, Invite-Only, and Public event types
 - Calendar integration and smart notifications
 - Premium features for hosts and attendees
+- Login/signup integration planned for future sprint
 - A future-ready mobile app strategy
 - Agile-based modular development on Bolt.new
 
